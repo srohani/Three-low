@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		293F38C41BD871D100CB73C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F38C31BD871D100CB73C4 /* main.m */; };
+		293F38CC1BD8721500CB73C4 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F38CB1BD8721500CB73C4 /* Dice.m */; settings = {ASSET_TAGS = (); }; };
+		293F38CF1BD8745D00CB73C4 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F38CE1BD8745D00CB73C4 /* GameController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		293F38C01BD871D100CB73C4 /* ThreelowFINAL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ThreelowFINAL; sourceTree = BUILT_PRODUCTS_DIR; };
 		293F38C31BD871D100CB73C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		293F38CA1BD8721500CB73C4 /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		293F38CB1BD8721500CB73C4 /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
+		293F38CD1BD8745D00CB73C4 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		293F38CE1BD8745D00CB73C4 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				293F38C31BD871D100CB73C4 /* main.m */,
+				293F38CA1BD8721500CB73C4 /* Dice.h */,
+				293F38CB1BD8721500CB73C4 /* Dice.m */,
+				293F38CD1BD8745D00CB73C4 /* GameController.h */,
+				293F38CE1BD8745D00CB73C4 /* GameController.m */,
 			);
 			path = ThreelowFINAL;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				293F38CF1BD8745D00CB73C4 /* GameController.m in Sources */,
+				293F38CC1BD8721500CB73C4 /* Dice.m in Sources */,
 				293F38C41BD871D100CB73C4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
