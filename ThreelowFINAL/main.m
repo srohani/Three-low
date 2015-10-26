@@ -31,9 +31,10 @@ int main(int argc, const char * argv[]) {
                 [game reset];
             }
             if ([firstMenuChoice isEqual:@"hold"]) {
-                NSString *holdPosition = [menu inputPrompt:@"Which die do you want to keep?"];
+                NSString *holdPosition = [menu inputPrompt:@"Please choose a die between 0 and 4 to hold"];
+                
                 int index = holdPosition.intValue;
-                [game holdDieAtPosition:index];
+                [game holdDieAt:index];
             }
             
             

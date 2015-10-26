@@ -7,16 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Dice.h"
 
 @interface GameController : NSObject
 
 @property (nonatomic, strong) NSMutableArray *unheldDice;
 @property (nonatomic, strong) NSMutableArray *heldDice;
 
--(void) holdDieAtPosition:(int)position;
+-(void) holdDieAt:(int)position;
+-(BOOL) dieIsHeld:(Dice *)die;
 -(void) rollDice;
 -(void) reset;
-
 
 @end
